@@ -1,94 +1,303 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rohithkumar Reddy | Data Engineer</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rohithkumar Reddy — Data Engineer</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Meta -->
+  <meta name="description" content="Rohithkumar Reddy — Data Engineer. Azure | Databricks | PySpark | Data Lakehouse | CI/CD" />
 </head>
-
 <body>
-    <header>
-        <nav class="nav">
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="#top" class="logo">
+          <!-- Simple text logo -->
+          <strong>Rohithkumar Reddy</strong>
+          <span class="subtitle">Data Engineer</span>
+        </a>
+      </div>
 
-        <section class="hero">
-            <h1>Rohithkumar Reddy</h1>
-            <p class="title">Data Engineer</p>
-        </section>
-    </header>
+      <nav class="nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
 
-    <main>
-        <!-- About Section -->
-        <section id="about" class="section">
-            <h2>About Me</h2>
-            <p>
-                I’m an Azure-certified Data Engineer with more than five years of experience designing, automating and scaling data platforms on Microsoft Azure.
-            </p>
-            <p>
-                My work includes Data Lakehouse architectures, metadata-driven ingestion frameworks, CI/CD automation and cloud governance. I work with Azure Databricks, Data Factory, PySpark and Delta Lake to build efficient and reliable pipelines.
-            </p>
-            <p>
-                In a previous role, I helped cut data latency by 60 percent and reduced operational costs by 30 percent through optimization and automation.
-            </p>
-            <p>
-                I enjoy working with both business and engineering teams, translating complex ideas into clear solutions. I’m currently exploring opportunities where I can support data modernization and cloud analytics projects.
-            </p>
-        </section>
+      <div class="header-actions">
+        <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme" class="btn-icon">
+          <!-- sun / moon svg toggled via JS -->
+          <svg id="theme-icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+            <g fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M12 3v1"></path>
+              <path d="M12 20v1"></path>
+              <path d="M4.2 4.2l.7.7"></path>
+              <path d="M18.1 18.1l.7.7"></path>
+              <path d="M1 12h1"></path>
+              <path d="M22 12h1"></path>
+              <path d="M4.2 19.8l.7-.7"></path>
+              <path d="M18.1 5.9l.7-.7"></path>
+              <circle cx="12" cy="12" r="4"></circle>
+            </g>
+          </svg>
+        </button>
 
-        <!-- Skills -->
-        <section id="skills" class="section">
-            <h2>Skills</h2>
-            <ul class="skills-list">
-                <li>Azure</li>
-                <li>Python</li>
-                <li>SQL</li>
-                <li>Azure Data Factory</li>
-                <li>Azure Databricks</li>
-                <li>PySpark</li>
-                <li>Delta Lake</li>
-                <li>CI/CD</li>
-                <li>Data Lakehouse Architecture</li>
-            </ul>
-        </section>
+        <a class="icon-link" href="https://www.linkedin.com/in/rohith-kumar-reddy-652b44143" target="_blank" rel="noopener">
+          <!-- LinkedIn SVG -->
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+            <path fill="currentColor" d="M4.98 3.5C4.98 4.6 4.14 5.5 3 5.5S1 4.6 1 3.5 1.84 1.5 3 1.5 4.98 2.4 4.98 3.5zM.5 8h5v13h-5zM9 8h4.8v1.8h.1c.7-1.2 2.4-2.4 4.9-2.4C23 7.4 24 9.9 24 13.3V21h-5v-6.1c0-1.5 0-3.5-2.1-3.5-2.1 0-2.4 1.6-2.4 3.4V21H9z"></path>
+          </svg>
+        </a>
 
-        <!-- Projects -->
-        <section id="projects" class="section">
-            <h2>Projects</h2>
-            <p>Project details will be added here soon.</p>
-        </section>
+        <a class="icon-link" href="https://rr531.github.io/rohithkumar.github.io/" target="_blank" rel="noopener">
+          <!-- GitHub SVG -->
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+            <path fill="currentColor" d="M12 0C5.37 0 0 5.37 0 12a12 12 0 008.2 11.4c.6.1.8-.2.8-.6v-2.1c-3.3.7-4-1.6-4-1.6-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 .1 1.6-.8 1.8-1.2.6-1.2 1.4-1 2.6-.8.1-.8.4-1 .7-1.3-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.4 1.3-3.3-.1-.3-.6-1.6.1-3.3 0 0 1-.3 3.3 1.3a11 11 0 016 0c2.3-1.6 3.3-1.3 3.3-1.3.7 1.7.2 3 .1 3.3.8.9 1.3 2 1.3 3.3 0 4.5-2.7 5.5-5.3 5.8.4.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6A12 12 0 0024 12c0-6.6-5.4-12-12-12z"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </header>
 
-        <!-- Contact -->
-        <section id="contact" class="section">
-            <h2>Contact</h2>
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-grid">
+        <div class="hero-left">
+          <!-- Avatar placeholder -->
+          <div class="avatar" aria-hidden="true">RK</div>
+        </div>
 
-           <!-- <p>Email: 
-                <a href="mailto:your-email@example.com">your-email@example.com</a>
-            </p> -->
+        <div class="hero-right">
+          <h1 class="hero-title">Rohithkumar Reddy</h1>
+          <p class="hero-sub">Azure-certified Data Engineer — Databricks, PySpark, Data Lakehouse</p>
 
-            <p>LinkedIn: 
-                <a href="https://www.linkedin.com/in/rohith-kumar-reddy-652b44143" target="_blank">
-                    https://www.linkedin.com/in/rohith-kumar-reddy-652b44143
-                </a>
-            </p>
+          <p class="hero-blurb">
+            I design metadata-driven ingestion frameworks, build scalable ETL/ELT pipelines, and automate CI/CD for cloud data platforms on Microsoft Azure.
+          </p>
 
-            <p>GitHub: 
-                <a href="https://rr531.github.io/rohithkumar.github.io/" target="_blank">
-                    https://rr531.github.io/rohithkumar.github.io/
-                </a>
-            </p>
-        </section>
-    </main>
+          <div class="hero-meta">
+            <span class="pill">Azure</span>
+            <span class="pill">Databricks</span>
+            <span class="pill">PySpark</span>
+            <span class="pill">Delta Lake</span>
+          </div>
 
-    <footer>
-        <p>© 2025 Rohithkumar Reddy</p>
-    </footer>
+          <div class="hero-ctas">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn ghost" href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <h2>About</h2>
+      <div class="about-grid">
+        <div>
+          <p>
+            I have 5+ years building and operating data platforms on Azure. My focus areas: reliable ingestion, testable transform layers, and cost-aware orchestration. I collaborate with analytics and product teams to turn data into trusted, usable assets.
+          </p>
+          <ul class="about-list">
+            <li><strong>Focus:</strong> Lakehouse architectures, data engineering automation</li>
+            <li><strong>Tools:</strong> Azure Data Factory, Databricks, PySpark, Delta Lake</li>
+            <li><strong>Operational wins:</strong> reduced latency by 60% and cut operational cost by 30%</li>
+          </ul>
+        </div>
+
+        <div class="about-quick">
+          <div class="card small">
+            <h3>Availability</h3>
+            <p>Open to new roles & freelance projects</p>
+          </div>
+
+          <div class="card small">
+            <h3>Location</h3>
+            <p>India (remote-friendly)</p>
+          </div>
+
+          <div class="card small">
+            <h3>Contact</h3>
+            <p><a href="mailto:your-email@example.com">your-email@example.com</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section container">
+      <h2>Skills</h2>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4>Cloud & Platform</h4>
+          <ul>
+            <li>Azure (Databricks, Data Factory, Synapse)</li>
+            <li>Data Lakehouse</li>
+            <li>Delta Lake</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h4>Data & ETL</h4>
+          <ul>
+            <li>PySpark</li>
+            <li>Python</li>
+            <li>SQL (T-SQL)</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h4>Engineering</h4>
+          <ul>
+            <li>CI/CD (Azure DevOps / GitHub Actions)</li>
+            <li>Testing & Monitoring</li>
+            <li>Performance tuning</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <h2>Selected projects</h2>
+
+      <div class="projects-grid">
+        <!-- Project Card 1 -->
+        <article class="project-card">
+          <div class="project-header">
+            <h3>Metadata-Driven Ingestion Framework</h3>
+            <div class="project-meta">Azure Data Factory • Databricks • Delta Lake</div>
+          </div>
+          <p>
+            Built a metadata-driven ingestion pipeline that auto-generates and schedules ingestion jobs, reducing onboarding time for new sources from days to hours.
+          </p>
+          <ul class="project-bullets">
+            <li>Automated schema discovery & incremental ingestion</li>
+            <li>Implemented robust retries, alerting and SLA monitoring</li>
+            <li>Reduced operational onboarding time by ~80%</li>
+          </ul>
+          <div class="project-links">
+            <a href="#" class="link-ghost" aria-disabled="true">Read case study</a>
+            <a href="#" class="link-ghost" aria-disabled="true">View code</a>
+          </div>
+        </article>
+
+        <!-- Project Card 2 -->
+        <article class="project-card">
+          <div class="project-header">
+            <h3>Delta Lake ETL Standardization</h3>
+            <div class="project-meta">Databricks • PySpark • Delta</div>
+          </div>
+          <p>
+            Standardized batch and streaming ETL patterns using Delta Lake and structured streaming to enable reliable CDC pipelines and simplify downstream analytics.
+          </p>
+          <ul class="project-bullets">
+            <li>Implemented idempotent merge patterns</li>
+            <li>Created reusable transform library</li>
+            <li>Improved query performance and reduced storage costs</li>
+          </ul>
+          <div class="project-links">
+            <a href="#" class="link-ghost" aria-disabled="true">Read case study</a>
+            <a href="#" class="link-ghost" aria-disabled="true">View code</a>
+          </div>
+        </article>
+
+        <!-- Project Card 3 (placeholder can be updated) -->
+        <article class="project-card">
+          <div class="project-header">
+            <h3>CI/CD for Data Pipelines</h3>
+            <div class="project-meta">GitHub Actions • Terraform • Azure</div>
+          </div>
+          <p>
+            Designed a reproducible CI/CD pipeline for data artifacts, infrastructure and Databricks notebooks to support safe deployments across environments.
+          </p>
+          <ul class="project-bullets">
+            <li>Automated tests and linting for notebooks</li>
+            <li>Infrastructure as code for staging / production</li>
+          </ul>
+          <div class="project-links">
+            <a href="#" class="link-ghost" aria-disabled="true">Read case study</a>
+            <a href="#" class="link-ghost" aria-disabled="true">View code</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <h2>Contact</h2>
+
+      <div class="contact-grid">
+        <div class="card">
+          <h3>Get in touch</h3>
+          <p>If you'd like to talk about a role, consulting or a project — email me or connect on LinkedIn.</p>
+          <p><strong>Email</strong>: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+          <p><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/rohith-kumar-reddy-652b44143" target="_blank" rel="noopener">rohith-kumar-reddy</a></p>
+          <p><strong>Site</strong>: <a href="https://rr531.github.io/rohithkumar.github.io/" target="_blank" rel="noopener">My GitHub Pages</a></p>
+        </div>
+
+        <div class="card">
+          <h3>Quick info</h3>
+          <ul class="contact-list">
+            <li>Timezone: IST</li>
+            <li>Open to remote roles</li>
+            <li>Available: Immediately</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-left">
+        <small>© <span id="year">2025</span> Rohithkumar Reddy</small>
+      </div>
+      <div class="footer-right">
+        <a href="https://www.linkedin.com/in/rohith-kumar-reddy-652b44143" target="_blank" rel="noopener">LinkedIn</a>
+        <span>·</span>
+        <a href="https://rr531.github.io/rohithkumar.github.io/" target="_blank" rel="noopener">GitHub Site</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Minimal JS for theme toggle and small interactions -->
+  <script>
+    (function() {
+      const toggle = document.getElementById('theme-toggle');
+      const root = document.documentElement;
+      const themeIcon = document.getElementById('theme-icon');
+
+      // initialize: use localStorage, otherwise follow prefers-color-scheme
+      const stored = localStorage.getItem('site-theme');
+      if (stored) root.setAttribute('data-theme', stored);
+
+      // update icon fill/appearance based on theme
+      function updateIcon() {
+        const theme = root.getAttribute('data-theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        // simple swap by toggling an attribute on the svg for CSS to target
+        themeIcon.setAttribute('data-theme', theme);
+      }
+      updateIcon();
+
+      toggle.addEventListener('click', () => {
+        const current = root.getAttribute('data-theme');
+        const next = current === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        localStorage.setItem('site-theme', next);
+        updateIcon();
+      });
+
+      // set current year
+      document.getElementById('year').textContent = new Date().getFullYear();
+    })();
+  </script>
 </body>
 </html>
-
