@@ -107,8 +107,8 @@ body {
 
 .hero-grid {
   display: grid;
-  grid-template-columns: 160px 1fr;
-  gap: 24px;
+  grid-template-columns: 120px 1fr;
+  gap: 20px;
   align-items: center;
 }
 
